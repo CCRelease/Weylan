@@ -1,0 +1,2 @@
+d165407f233009544c8fa468c46e4acac2c0adea4a3ee419d39af478e09f41f7  SQLDbCopier-1.1.0-win-x64-portable.zip
+81bffba7ec71ea27df9e13cf3f86807601eaf711e24fa2530046ffbc121a5b6d  SQLDbCopier-1.1.0-win-x64-setup.exe
