@@ -1,0 +1,21 @@
+{
+  "app": "SQLDbCopier",
+  "version": "1.1.0",
+  "publishedAtUtc": "2026-09-23T23:08:34Z",
+  "packages": [
+    {
+      "platform": "win-x64",
+      "kind": "installer",
+      "path": "versions/1.1.0/SQLDbCopier-1.1.0-win-x64-setup.exe",
+      "size": 39791936,
+      "sha256": "81bffba7ec71ea27df9e13cf3f86807601eaf711e24fa2530046ffbc121a5b6d"
+    },
+    {
+      "platform": "win-x64",
+      "kind": "portable",
+      "path": "versions/1.1.0/SQLDbCopier-1.1.0-win-x64-portable.zip",
+      "size": 54033269,
+      "sha256": "d165407f233009544c8fa468c46e4acac2c0adea4a3ee419d39af478e09f41f7"
+    }
+  ]
+}
