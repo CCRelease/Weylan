@@ -1,0 +1,21 @@
+{
+  "app": "ZipPwd",
+  "version": "1.1.0",
+  "publishedAtUtc": "2026-09-23T23:08:34Z",
+  "packages": [
+    {
+      "platform": "win-x64",
+      "kind": "installer",
+      "path": "versions/1.1.0/ZipPwd-1.1.0-win-x64-setup.exe",
+      "size": 35528736,
+      "sha256": "845ce755686021d10273ee0d13d495677aa19fc4e028e71a60a0c21a7d71d729"
+    },
+    {
+      "platform": "win-x64",
+      "kind": "portable",
+      "path": "versions/1.1.0/ZipPwd-1.1.0-win-x64-portable.zip",
+      "size": 47528852,
+      "sha256": "25c5c74dc1123e946a66064bccef17dd0ddd288f7ecac6adc27b081dd707968f"
+    }
+  ]
+}
