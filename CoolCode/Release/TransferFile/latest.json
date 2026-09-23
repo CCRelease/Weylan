@@ -1,0 +1,35 @@
+{
+  "app": "TransferFile",
+  "version": "2.0.0",
+  "publishedAtUtc": "2026-09-23T11:53:41.0686250Z",
+  "packages": [
+    {
+      "platform": "win-x64",
+      "kind": "installer",
+      "path": "versions/2.0.0/TransferFile-2.0.0-win-x64-setup.exe",
+      "size": 38002960,
+      "sha256": "e819162be90df053e0e3c779ba8cdfe1c90d3d0660febf2f05c391cc984992cc"
+    },
+    {
+      "platform": "win-x64",
+      "kind": "portable",
+      "path": "versions/2.0.0/TransferFile-2.0.0-win-x64-portable.zip",
+      "size": 52425462,
+      "sha256": "fb49445802e42143229ac455e948f10fb33e30c77af0b20e60eb1d2546317d63"
+    },
+    {
+      "platform": "linux-x64",
+      "kind": "installer",
+      "path": "versions/2.0.0/TransferFile-2.0.0-linux-x64-setup.deb",
+      "size": 34959928,
+      "sha256": "b519d6a2dcee17cfb6feee7ecec6bab7ff860a41259575b10683f4740ea74eaa"
+    },
+    {
+      "platform": "linux-x64",
+      "kind": "portable",
+      "path": "versions/2.0.0/TransferFile-2.0.0-linux-x64-portable.tar.gz",
+      "size": 43903363,
+      "sha256": "790969f0206186cc0cfb6bb67974099f438e2bf0df6f6de1aec01240bae61dda"
+    }
+  ]
+}

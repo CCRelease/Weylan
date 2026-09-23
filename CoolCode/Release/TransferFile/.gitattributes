@@ -1,0 +1,5 @@
+versions/*/*.exe filter=lfs diff=lfs merge=lfs -text
+versions/*/*.zip filter=lfs diff=lfs merge=lfs -text
+versions/*/*.deb filter=lfs diff=lfs merge=lfs -text
+versions/*/*.tar.gz filter=lfs diff=lfs merge=lfs -text
+versions/*/SHA256SUMS.txt -text
