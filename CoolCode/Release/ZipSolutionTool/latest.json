@@ -1,0 +1,21 @@
+{
+  "app": "ZipSolutionTool",
+  "version": "1.2.0",
+  "publishedAtUtc": "2026-09-23T18:45:13Z",
+  "packages": [
+    {
+      "platform": "win-x64",
+      "kind": "installer",
+      "path": "versions/1.2.0/ZipSolutionTool-1.2.0-win-x64-setup.exe",
+      "size": 37540120,
+      "sha256": "98a9286e5c7038587a74767129469c28b6bbbe5d6dea3161546fd608cc7bf249"
+    },
+    {
+      "platform": "win-x64",
+      "kind": "portable",
+      "path": "versions/1.2.0/ZipSolutionTool-1.2.0-win-x64-portable.zip",
+      "size": 51702883,
+      "sha256": "f5a88eb38ffe4dc2a537a7a20f8d4f876d94b016087594354ebfa8681341aa04"
+    }
+  ]
+}

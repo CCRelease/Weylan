@@ -1,0 +1,21 @@
+{
+  "app": "CodexSwitch",
+  "version": "1.2.0",
+  "publishedAtUtc": "2026-09-23T18:45:13Z",
+  "packages": [
+    {
+      "platform": "win-x64",
+      "kind": "installer",
+      "path": "versions/1.2.0/CodexSwitch-1.2.0-win-x64-setup.exe",
+      "size": 38093104,
+      "sha256": "18db162312e338e2248d0de932cf817d46157c6db2dcb573e424ca409ca88735"
+    },
+    {
+      "platform": "win-x64",
+      "kind": "portable",
+      "path": "versions/1.2.0/CodexSwitch-1.2.0-win-x64-portable.zip",
+      "size": 52689776,
+      "sha256": "ad6071c5e6c61fa0b222daa29f49d35a9a2f532dc8232162851aa191e840c260"
+    }
+  ]
+}
