@@ -1,0 +1,21 @@
+{
+  "app": "CodexSync",
+  "version": "1.6.0",
+  "publishedAtUtc": "2026-09-23T23:08:34Z",
+  "packages": [
+    {
+      "platform": "win-x64",
+      "kind": "installer",
+      "path": "versions/1.6.0/CodexSync-1.6.0-win-x64-setup.exe",
+      "size": 35547488,
+      "sha256": "caf3a506ee87d474caa15a0cb20b573156a2cac79c259ffe6082c3280471772b"
+    },
+    {
+      "platform": "win-x64",
+      "kind": "portable",
+      "path": "versions/1.6.0/CodexSync-1.6.0-win-x64-portable.zip",
+      "size": 47573897,
+      "sha256": "c9030a10c2c35ce06643c326a076ea942769ce0eb5151ac6d02bf2f2a546d7b4"
+    }
+  ]
+}
