@@ -1,0 +1,2 @@
+25c5c74dc1123e946a66064bccef17dd0ddd288f7ecac6adc27b081dd707968f  ZipPwd-1.1.0-win-x64-portable.zip
+845ce755686021d10273ee0d13d495677aa19fc4e028e71a60a0c21a7d71d729  ZipPwd-1.1.0-win-x64-setup.exe
