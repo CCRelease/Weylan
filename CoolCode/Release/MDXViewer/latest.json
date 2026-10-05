@@ -1,0 +1,48 @@
+{
+  "packages": [
+    {
+      "kind": "portable",
+      "version": "1.6.10",
+      "size": 66046317,
+      "platform": "win-x64",
+      "path": "versions/1.6.10/MDXViewer-1.6.10-win-x64-portable.zip",
+      "sha256": "511551d2785a2d795d08050b0a113212589eb72b76bc6da8cfebe4185854bb11"
+    },
+    {
+      "kind": "installer",
+      "version": "1.6.10",
+      "size": 45871296,
+      "platform": "win-x64",
+      "path": "versions/1.6.10/MDXViewer-1.6.10-win-x64-setup.exe",
+      "sha256": "4db5dcc7c2b8534162b7bb7654095539ec35cc02e2547e6e97981633a895e86a"
+    },
+    {
+      "kind": "installer",
+      "version": "1.0.3",
+      "size": 45824724,
+      "platform": "linux-x64",
+      "path": "versions/1.0.3/coolcode-mdxviewer-linux_1.0.3_amd64.deb",
+      "sha256": "0d21495e0a5227b030c9314bf9d454971392c10177d3eea6b31d997c803a7c6f"
+    },
+    {
+      "kind": "portable",
+      "version": "1.0.3",
+      "size": 60508803,
+      "platform": "linux-x64",
+      "path": "versions/1.0.3/mdxviewer-linux-1.0.3-linux-x64.tar.gz",
+      "sha256": "57cac9fb5c2b2092b785976de7f2c8283f30b23af71d480a5fd86549c459dd07"
+    }
+  ],
+  "version": "1.6.10",
+  "signature": {
+    "publisherThumbprint": "2AD77786E39ED19E6A5A72BB9A7752B10822CE62",
+    "format": "CMS detached SHA256",
+    "manifests": [
+      "versions/1.6.10/SHA256SUMS.p7s",
+      "versions/1.0.3/SHA256SUMS.p7s"
+    ]
+  },
+  "app": "MDXViewer",
+  "publishedAtUtc": "2026-10-05T18:29:04Z",
+  "linuxVersion": "1.0.3"
+}
