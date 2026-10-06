@@ -1,8 +1,19 @@
 # MDX Viewer
 
-Versiones actuales: **Windows 1.6.10 · Linux 1.0.3** — 5 de octubre de 2026.
+MDX Viewer permite leer y editar documentos Markdown y MDX en una misma ventana. Está pensado para preparar documentación, revisar el resultado mientras escribes y compartirlo como PDF.
 
-Visor y editor local de Markdown/MDX con pestañas, preview, código, búsqueda, PDF con Mermaid y siete idiomas. Paquetes autónomos con .NET 10 incluido.
+- **Vista previa y código juntos:** compara el documento con su contenido editable y ajusta el espacio de cada panel.
+- **Varios documentos en pestañas:** cambia de archivo sin perder las ediciones pendientes.
+- **Documentación con formato:** visualiza tablas, bloques de código, avisos, secciones desplegables y diagramas Mermaid compatibles.
+- **Herramientas de trabajo:** busca texto, guarda los cambios, exporta a PDF y cambia el idioma de la interfaz.
+
+![MDX Viewer Linux mostrando la vista previa y el código de un documento MDX con avisos, secciones desplegables y pestañas](screenshots/mdxviewer-1.0.3-linux.png)
+
+*Captura real de Linux 1.0.3 con documentos de prueba: vista previa a la izquierda y código a la derecha.*
+
+## Versiones y descargas
+
+Versiones actuales: **Windows 1.6.10 · Linux 1.0.3** — publicadas el 5 de octubre de 2026. Paquetes autónomos con .NET 10 incluido.
 
 | Plataforma | Instalador | Portable |
 | --- | --- | --- |
