@@ -1,5 +1,16 @@
 # TransferFile
 
+TransferFile envía y recibe archivos entre equipos Windows y Linux. Permite preparar una transferencia desde una interfaz gráfica y conectarse directamente al otro equipo o utilizar el servicio de conexión de CoolCode.
+
+- **Archivos entre equipos:** selecciona qué enviar y dónde recibirlo.
+- **Conexión directa o mediante servicio:** elige la ruta disponible entre los equipos.
+- **Configuración de la transferencia:** revisa el destinatario y las opciones antes de iniciar.
+- **Seguimiento:** consulta el avance y el resultado del envío.
+
+<img src="screenshots/transferfile-2.0.1-win-x64.png" alt="Interfaz de TransferFile para Windows" width="60%">
+
+*Captura real de Windows 2.0.1.*
+
 ## Versión actual: 2.0.1 · 23 de septiembre de 2026
 
 TransferFile permite enviar y recibir archivos entre equipos Windows y Linux, por conexión directa o mediante el servicio de conexión de CoolCode. Los paquetes son autónomos: no requieren instalar .NET.
