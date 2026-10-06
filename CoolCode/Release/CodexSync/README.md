@@ -7,9 +7,9 @@ CodexSync transporta el contenido compatible de Codex de un ordenador a otro med
 - **Proyectos en otra ubicación:** actualiza sus referencias cuando la ruta local cambia; la app no mueve sus archivos.
 - **Revisión y backups:** consulta el resultado y las copias de respaldo del proceso.
 
-<img src="screenshots/codexsync-1.6.0-win-x64.png" alt="Interfaz de CodexSync para Windows" width="60%">
+<img src="screenshots/codexsync-1.6.0-win-x64-20261006.png" alt="CodexSync para Windows: opciones para exportar una copia completa" width="60%">
 
-*Captura real de Windows 1.6.0.*
+*Captura de Windows 1.6.0: exportación de una copia completa.*
 
 ## Versión actual: 1.6.0 · 24 de septiembre de 2026
 
