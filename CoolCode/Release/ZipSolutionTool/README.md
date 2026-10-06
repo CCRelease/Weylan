@@ -7,9 +7,9 @@ ZipSolutionTool prepara copias ZIP de soluciones Visual Studio y ayuda a recuper
 - **Seleccionar antes de borrar:** utiliza las casillas y filtros para revisar qué carpetas vas a eliminar.
 - **Acceso desde el Explorador:** registra las opciones del menú contextual para trabajar desde una carpeta.
 
-<img src="screenshots/zipsolutiontool-1.2.0-win-x64.png" alt="Interfaz de ZipSolutionTool para Windows" width="60%">
+<img src="screenshots/zipsolutiontool-1.2.0-win-x64-20261006.png" alt="ZipSolutionTool para Windows: compresión y limpieza de una solución ficticia" width="60%">
 
-*Captura real de Windows 1.2.0, tomada el 19 de septiembre de 2026 con una solución ficticia.*
+*Captura de Windows 1.2.0 con una solución ficticia, tomada el 19 de septiembre de 2026; encuadre actualizado.*
 
 ## Versión actual: 1.2.0 · 23 de septiembre de 2026
 
