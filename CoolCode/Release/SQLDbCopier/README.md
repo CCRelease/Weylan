@@ -7,9 +7,9 @@ SQLDbCopier permite revisar y copiar contenido entre bases de datos SQL Server. 
 - **Base de destino:** utiliza una base existente o prepara una nueva base clon.
 - **Seguimiento:** consulta el progreso y el resultado de la ejecución.
 
-<img src="screenshots/sqldbcopier-1.1.0-win-x64.png" alt="Interfaz de SQLDbCopier para Windows" width="60%">
+<img src="screenshots/sqldbcopier-1.1.0-win-x64-20261006.png" alt="SQLDbCopier para Windows: configuración de conexiones y base de destino" width="60%">
 
-*Captura real de Windows 1.1.0.*
+*Captura de Windows 1.1.0: conexiones de origen y destino en modo básico.*
 
 ## Versión actual: 1.1.0 · 24 de septiembre de 2026
 
