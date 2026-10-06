@@ -1,5 +1,16 @@
 # CodexSync
 
+CodexSync transporta el contenido compatible de Codex de un ordenador a otro mediante un paquete .codexsync. Permite llevar conversaciones y referencias de proyectos al equipo de destino sin copiar las carpetas de código.
+
+- **Exportar e importar:** prepara el paquete en el PC de origen e impórtalo en el PC de destino.
+- **Copia completa o cambios:** elige la modalidad que corresponde a la transferencia.
+- **Proyectos en otra ubicación:** actualiza sus referencias cuando la ruta local cambia; la app no mueve sus archivos.
+- **Revisión y backups:** consulta el resultado y las copias de respaldo del proceso.
+
+<img src="screenshots/codexsync-1.6.0-win-x64.png" alt="Interfaz de CodexSync para Windows" width="60%">
+
+*Captura real de Windows 1.6.0.*
+
 ## Versión actual: 1.6.0 · 24 de septiembre de 2026
 
 Sincroniza la configuración de Codex entre equipos mediante exportación e importación de paquetes.
