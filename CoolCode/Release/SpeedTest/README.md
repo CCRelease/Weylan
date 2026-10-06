@@ -7,9 +7,9 @@ SpeedTest mide el rendimiento local de la memoria RAM y de los discos para compa
 - **Historial y gráficas:** compara ejecuciones anteriores y observa su evolución.
 - **Índice global:** reúne las mediciones en un indicador de comparación.
 
-<img src="screenshots/speedtest-1.2.0-win-x64.png" alt="Interfaz de SpeedTest para Windows" width="60%">
+<img src="screenshots/speedtest-1.2.0-win-x64-20261006.png" alt="SpeedTest para Windows: selección de discos y resultados de las pruebas" width="60%">
 
-*Captura real de Windows 1.2.0.*
+*Captura de Windows 1.2.0: selección de discos y tabla de resultados.*
 
 ## Versión actual: 1.2.0 · 23 de septiembre de 2026
 
