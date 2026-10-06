@@ -1,5 +1,16 @@
 # SpeedTest
 
+SpeedTest mide el rendimiento local de la memoria RAM y de los discos para comparar equipos o comprobar cómo cambian sus resultados con el tiempo.
+
+- **Pruebas de memoria y discos:** mide copia de RAM, escritura y lectura en las unidades seleccionadas.
+- **Resultados de cada prueba:** consulta medias, mínimos y máximos.
+- **Historial y gráficas:** compara ejecuciones anteriores y observa su evolución.
+- **Índice global:** reúne las mediciones en un indicador de comparación.
+
+<img src="screenshots/speedtest-1.2.0-win-x64.png" alt="Interfaz de SpeedTest para Windows" width="60%">
+
+*Captura real de Windows 1.2.0.*
+
 ## Versión actual: 1.2.0 · 23 de septiembre de 2026
 
 Pruebas locales de RAM y discos con historial, gráficas e índice global para Windows x64. Interfaz en EN, ES, CA, FR, DE, IT y PT. Los paquetes son autónomos: no requieren instalar .NET.
