@@ -7,9 +7,9 @@ ZipPwd crea archivos ZIP protegidos con contraseña a partir de una carpeta. Per
 - **Compresión:** ajusta el nivel y decide si quieres incluir la carpeta base.
 - **Progreso y cancelación:** sigue la creación del archivo y cancélala si lo necesitas.
 
-<img src="screenshots/zippwd-1.1.0-win-x64.png" alt="Interfaz de ZipPwd para Windows" width="60%">
+<img src="screenshots/zippwd-1.1.0-win-x64-20261006.png" alt="ZipPwd para Windows: origen, destino, contraseña, compresión y cifrado" width="60%">
 
-*Captura real de Windows 1.1.0.*
+*Captura de Windows 1.1.0: opciones para crear un ZIP protegido con contraseña.*
 
 ## Versión actual: 1.1.0 · 24 de septiembre de 2026
 
