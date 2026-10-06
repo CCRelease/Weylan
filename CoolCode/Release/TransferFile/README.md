@@ -7,9 +7,9 @@ TransferFile envía y recibe archivos entre equipos Windows y Linux. Permite pre
 - **Configuración de la transferencia:** revisa el destinatario y las opciones antes de iniciar.
 - **Seguimiento:** consulta el avance y el resultado del envío.
 
-<img src="screenshots/transferfile-2.0.1-win-x64.png" alt="Interfaz de TransferFile para Windows" width="60%">
+<img src="screenshots/transferfile-2.0.1-win-x64-20261006.png" alt="TransferFile para Windows: preparación de un envío, destinatario y selección de archivos" width="60%">
 
-*Captura real de Windows 2.0.1.*
+*Captura de Windows 2.0.1: preparación de un envío con la interfaz en francés.*
 
 ## Versión actual: 2.0.1 · 23 de septiembre de 2026
 
