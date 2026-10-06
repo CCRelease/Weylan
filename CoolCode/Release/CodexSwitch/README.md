@@ -7,9 +7,9 @@ CodexSwitch reúne tus cuentas de Codex/ChatGPT en una ventana para consultar su
 - **Cambio de cuenta:** selecciona la cuenta activa desde la ventana o la bandeja.
 - **Interfaz en siete idiomas:** cambia el idioma sin reiniciar.
 
-<img src="screenshots/codexswitch-1.2.0-win-x64.png" alt="Interfaz de CodexSwitch para Windows" width="60%">
+<img src="screenshots/codexswitch-1.2.7-win-x64-20261006.png" alt="CodexSwitch 1.2.7 para Windows: vista compacta con cinco cuentas y sus indicadores de uso" width="60%">
 
-*Captura real de Windows 1.2.0.*
+*Captura de Windows 1.2.7: vista compacta con cinco cuentas y sus indicadores de uso; identificadores ocultos. La versión disponible para descargar en esta página es 1.2.0.*
 
 ## Versión actual: 1.2.0 · 23 de septiembre de 2026
 
