@@ -7,7 +7,7 @@ MDX Viewer permite leer y editar documentos Markdown y MDX en una misma ventana.
 - **Documentación con formato:** visualiza tablas, bloques de código, avisos, secciones desplegables y diagramas Mermaid compatibles.
 - **Herramientas de trabajo:** busca texto, guarda los cambios, exporta a PDF y cambia el idioma de la interfaz.
 
-![MDX Viewer Linux mostrando la vista previa y el código de un documento MDX con avisos, secciones desplegables y pestañas](screenshots/mdxviewer-1.0.3-linux.png)
+<img src="screenshots/mdxviewer-1.0.3-linux.png" alt="MDX Viewer Linux mostrando la vista previa y el código de un documento MDX con avisos, secciones desplegables y pestañas" width="60%">
 
 *Captura real de Linux 1.0.3 con documentos de prueba: vista previa a la izquierda y código a la derecha.*
 
