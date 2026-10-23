@@ -1,28 +1,45 @@
 # CodexSwitch
 
-CodexSwitch reúne tus cuentas de Codex/ChatGPT en una ventana para consultar su estado y cambiar de cuenta con rapidez, también desde la bandeja del sistema.
+CodexSwitch reúne tus cuentas de Codex en una ventana para consultar sus cuotas y elegir la cuenta que vas a utilizar. Puedes comparar cuentas en una tabla o verlas como tarjetas, y ocultar temporalmente las que no necesitas sin borrar sus credenciales.
 
-- **Cuentas en un solo lugar:** añade y organiza las cuentas que quieras utilizar.
-- **Uso y disponibilidad:** consulta los límites y el consumo cuando la cuenta proporciona esos datos.
-- **Cambio de cuenta:** selecciona la cuenta activa desde la ventana o la bandeja.
-- **Interfaz en siete idiomas:** cambia el idioma sin reiniciar.
+- **Ventana adaptada a cada vista:** Tabla se abre con más ancho y Tarjetas recupera su tamaño; ambas conservan su posición.
+- **Cuotas claras:** límites de 5 horas, semanales o de 30 días cuando el servicio los proporciona, con el porcentaje disponible y su reinicio.
+- **Plan separado del uso:** diferencia entre renovación del plan y reinicio de cuota, sin inventar fechas ni porcentajes ausentes.
+- **Siete idiomas:** EN, ES, CA, FR, DE, IT y PT con cambio inmediato.
+- **Windows y Linux:** instalador y edición portable para cada plataforma.
 
-<img src="screenshots/codexswitch-1.2.7-win-x64-20261006.png" alt="CodexSwitch 1.2.7 para Windows: vista compacta con cinco cuentas y sus indicadores de uso" width="60%">
+<img src="screenshots/codexswitch-1.3.0-windows-cards.png" alt="CodexSwitch 1.3.0 para Windows mostrando tarjetas de cuentas sintéticas y sus cuotas" width="60%">
 
-*Captura de Windows 1.2.7: vista compacta con cinco cuentas y sus indicadores de uso; identificadores ocultos. La versión disponible para descargar en esta página es 1.2.0.*
+*Windows 1.3.0, tarjetas con datos sintéticos de prueba.*
 
-## Versión actual: 1.2.0 · 23 de septiembre de 2026
+<img src="screenshots/codexswitch-1.3.0-windows-table.png" alt="CodexSwitch 1.3.0 para Windows mostrando la vista Tabla con la ventana ampliada automáticamente" width="60%">
 
-Gestor de cuentas Codex/ChatGPT para Windows x64. Permite cambiar de cuenta desde la ventana o la bandeja y ofrece interfaz en EN, ES, CA, FR, DE, IT y PT. Los paquetes son autónomos: no requieren instalar .NET.
+*Windows 1.3.0, tabla con ajuste automático de ventana.*
 
-| Instalador | Edición portable |
-| --- | --- |
-| [Descargar instalador Windows x64](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/CodexSwitch/versions/1.2.0/CodexSwitch-1.2.0-win-x64-setup.exe) | [Descargar ZIP Windows x64](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/CodexSwitch/versions/1.2.0/CodexSwitch-1.2.0-win-x64-portable.zip) |
+<img src="screenshots/codexswitch-1.3.0-linux-cards.png" alt="CodexSwitch 1.3.0 para Linux mostrando cuentas sintéticas, cuotas y acciones" width="60%">
 
-Comprueba el hash antes de ejecutar. El instalador crea un acceso en Inicio y se desinstala desde **Aplicaciones instaladas**. La edición portable se usa tras extraer todo el ZIP y ejecutar `CodexSwitch.exe`; se retira eliminando esa carpeta. Las preferencias personales permanecen en el perfil de usuario.
+*Linux 1.3.0, interfaz real renderizada durante la prueba en Ubuntu 24.04/X11 con datos sintéticos.*
 
-[Instrucciones, firmas y verificación](versions/1.2.0/INSTALL.md) · [Versión vigente en JSON](latest.json).
+## Versión actual: 1.3.0 · 23 de octubre de 2026
 
-### Historial
+| Plataforma | Instalador | Portable |
+| --- | --- | --- |
+| Windows x64 | [Descargar EXE](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/CodexSwitch/versions/1.3.0/CodexSwitch-1.3.0-win-x64-setup.exe) | [Descargar ZIP](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/CodexSwitch/versions/1.3.0/CodexSwitch-1.3.0-win-x64-portable.zip) |
+| Ubuntu 24.04 x64 | [Descargar DEB](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/CodexSwitch/versions/1.3.0/CodexSwitch-1.3.0-linux-x64.deb) | [Descargar TAR.GZ](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/CodexSwitch/versions/1.3.0/CodexSwitch-1.3.0-linux-x64-portable.tar.gz) |
 
-- [1.2.0](versions/1.2.0/INSTALL.md) — primera entrega con seguimiento formal; gestión de cuentas, indicadores y vista compacta.
+Windows requiere Windows 10 1809 o posterior. Linux se ha validado en Ubuntu 24.04 x64 con X11; Wayland y otras distribuciones no se han certificado. Los paquetes incluyen .NET.
+
+En Windows ejecuta el instalador; crea por defecto accesos en Escritorio e Inicio. En Linux abre el DEB con el gestor de paquetes o ejecuta `sudo apt install ./CodexSwitch-1.3.0-linux-x64.deb`; crea accesos de menú y escritorio con su icono.
+
+Para usar la edición portable, extrae todos los archivos y ejecuta `CodexSwitch.exe` o `codexswitch/CodexSwitch.Linux`. Extraer no registra una instalación; las instrucciones explican cómo crear un acceso con icono.
+
+Añade las cuentas mediante el inicio de sesión de Codex. Windows puede integrar Codex Desktop y ofrece bandeja y sincronización manual del plan mediante WebView2. Linux gestiona Codex CLI y requiere `codex` en PATH: cierra las sesiones abiertas antes de cambiar y abre una nueva después. Linux no incorpora esas funciones de escritorio específicas de Windows. La información de cuotas y renovación depende del servicio.
+
+Para desinstalar Windows, cierra desde la bandeja y usa Aplicaciones instaladas. En Linux cierra la ventana y ejecuta `sudo apt remove coolcode-codexswitch`. Ambos instaladores retiran sus accesos; los datos personales se conservan. La edición portable se retira cerrándola y eliminando su carpeta y el acceso que hayas creado.
+
+Verifica los hashes y la firma CMS antes de instalar. Los ejecutables Windows y el instalador tienen firma Authenticode de un certificado privado CoolCode. [Instrucciones y verificación de firmas](versions/1.3.0/INSTALL.md) · [Hashes](versions/1.3.0/SHA256SUMS.txt) · [Versión vigente en JSON](latest.json).
+
+## Historial
+
+- [1.3.0](versions/1.3.0/INSTALL.md): ventana adaptada a tarjetas/tabla; primera edición Linux; incorpora las mejoras de cuotas, renovación y cuentas desactivables realizadas desde la publicación anterior.
+- [1.2.0](versions/1.2.0/INSTALL.md): primera publicación en Weylan, con gestión de cuentas, indicadores, vista compacta y siete idiomas.

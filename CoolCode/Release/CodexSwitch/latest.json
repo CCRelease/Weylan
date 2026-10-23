@@ -1,21 +1,42 @@
 {
-  "app": "CodexSwitch",
-  "version": "1.2.0",
-  "publishedAtUtc": "2026-09-23T18:45:13Z",
+  "version": "1.3.0",
+  "publishedAtUtc": "2026-10-23T07:31:29Z",
   "packages": [
     {
-      "platform": "win-x64",
-      "kind": "installer",
-      "path": "versions/1.2.0/CodexSwitch-1.2.0-win-x64-setup.exe",
-      "size": 38093104,
-      "sha256": "18db162312e338e2248d0de932cf817d46157c6db2dcb573e424ca409ca88735"
+      "kind": "portable",
+      "size": 44188251,
+      "sha256": "ca65839c237f7e1da909411a1c7b712da903106e970fcb7d2d8e282e36608cf6",
+      "path": "versions/1.3.0/CodexSwitch-1.3.0-linux-x64-portable.tar.gz",
+      "platform": "linux-x64"
     },
     {
-      "platform": "win-x64",
+      "kind": "installer",
+      "size": 35233762,
+      "sha256": "3128b1f8445cbf1fbbf5e0832d5572450d1c0553b812396d814a4b1a2bd17e76",
+      "path": "versions/1.3.0/CodexSwitch-1.3.0-linux-x64.deb",
+      "platform": "linux-x64"
+    },
+    {
       "kind": "portable",
-      "path": "versions/1.2.0/CodexSwitch-1.2.0-win-x64-portable.zip",
-      "size": 52689776,
-      "sha256": "ad6071c5e6c61fa0b222daa29f49d35a9a2f532dc8232162851aa191e840c260"
+      "size": 52789373,
+      "sha256": "07a368d53fa40883e5a6caca924959ac086ddf02cb4de0ad97f02615da97823e",
+      "path": "versions/1.3.0/CodexSwitch-1.3.0-win-x64-portable.zip",
+      "platform": "win-x64"
+    },
+    {
+      "kind": "installer",
+      "size": 38147000,
+      "sha256": "04e81a6debfe5bcc7a29bfd7d664387e6876c1f34b0dda4bba3014d7161b7338",
+      "path": "versions/1.3.0/CodexSwitch-1.3.0-win-x64-setup.exe",
+      "platform": "win-x64"
     }
-  ]
+  ],
+  "app": "CodexSwitch",
+  "signature": {
+    "publisherThumbprint": "2AD77786E39ED19E6A5A72BB9A7752B10822CE62",
+    "manifests": [
+      "versions/1.3.0/SHA256SUMS.p7s"
+    ],
+    "format": "CMS detached SHA256"
+  }
 }
