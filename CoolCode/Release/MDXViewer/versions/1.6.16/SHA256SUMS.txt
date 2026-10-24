@@ -1,0 +1,2 @@
+6af5ee69346373a1bfd93027b8735d2087593d357d2de4db6da9454d20d68eac  MDXViewer-1.6.16-win-x64-portable.zip
+26c8e4cfc88266ea0f5051db9784d0bb507ece06e0793607ea738da8c45dcc88  MDXViewer-1.6.16-win-x64-setup.exe
