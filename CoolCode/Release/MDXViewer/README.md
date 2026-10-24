@@ -7,9 +7,9 @@ MDX Viewer permite leer y editar documentos Markdown y MDX en una misma ventana.
 - **Documentación con formato:** visualiza tablas, bloques de código, avisos, secciones desplegables y diagramas Mermaid compatibles.
 - **Herramientas de trabajo:** busca texto, guarda los cambios, exporta a PDF y cambia el idioma de la interfaz.
 
-<img src="screenshots/mdxviewer-1.6.14-windows.png" alt="MDX Viewer Windows 1.6.14 mostrando la guía de lectura con vista previa, editor y pestañas" width="60%">
+<img src="screenshots/mdxviewer-1.6.16-windows.png" alt="MDX Viewer Windows 1.6.16 mostrando la bienvenida, vista previa, editor y preferencia de inicio" width="60%">
 
-*Captura real de Windows 1.6.14 con el documento de prueba Guía de lectura.*
+*Captura real de Windows 1.6.16 con la bienvenida y su opción de no volver a mostrarla.*
 
 <img src="screenshots/mdxviewer-1.0.3-linux.png" alt="MDX Viewer Linux mostrando la vista previa y el código de un documento MDX con avisos, secciones desplegables y pestañas" width="60%">
 
@@ -17,11 +17,11 @@ MDX Viewer permite leer y editar documentos Markdown y MDX en una misma ventana.
 
 ## Versiones y descargas
 
-Versiones actuales: **Windows 1.6.14** — 17 de octubre de 2026 · **Linux 1.0.3** — 5 de octubre de 2026. Paquetes autónomos con .NET 10 incluido.
+Versiones actuales: **Windows 1.6.16** — 24 de octubre de 2026 · **Linux 1.0.3** — 5 de octubre de 2026. Paquetes autónomos con .NET 10 incluido.
 
 | Plataforma | Instalador | Portable |
 | --- | --- | --- |
-| Windows 10/11 x64 · 1.6.14 | [Descargar EXE](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/MDXViewer/versions/1.6.14/MDXViewer-1.6.14-win-x64-setup.exe) | [Descargar ZIP](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/MDXViewer/versions/1.6.14/MDXViewer-1.6.14-win-x64-portable.zip) |
+| Windows 10/11 x64 · 1.6.16 | [Descargar EXE](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/MDXViewer/versions/1.6.16/MDXViewer-1.6.16-win-x64-setup.exe) | [Descargar ZIP](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/MDXViewer/versions/1.6.16/MDXViewer-1.6.16-win-x64-portable.zip) |
 | Ubuntu 24.04 x64 · 1.0.3 | [Descargar DEB](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/MDXViewer/versions/1.0.3/coolcode-mdxviewer-linux_1.0.3_amd64.deb) | [Descargar TAR.GZ](https://github.com/CCRelease/Weylan/raw/refs/heads/main/CoolCode/Release/MDXViewer/versions/1.0.3/mdxviewer-linux-1.0.3-linux-x64.tar.gz) |
 
 ## Instalar y utilizar
@@ -38,9 +38,11 @@ Los documentos y las preferencias del usuario se conservan. La búsqueda se abre
 
 Los ejecutables propios Windows, el instalador y el desinstalador tienen firma Authenticode. Ambos conjuntos de paquetes incluyen hashes SHA-256 y manifiestos firmados mediante CMS, junto con el certificado público. Es un certificado privado: Windows puede mostrar un aviso de editor desconocido. Comprueba la huella y los hashes antes de aceptar.
 
-[Windows: instrucciones y firmas](versions/1.6.14/INSTALL.md) · [Linux: instrucciones y firmas](versions/1.0.3/INSTALL.md) · [Versiones y hashes en JSON](latest.json).
+[Windows: instrucciones y firmas](versions/1.6.16/INSTALL.md) · [Linux: instrucciones y firmas](versions/1.0.3/INSTALL.md) · [Versiones y hashes en JSON](latest.json).
 
 ## Historial
+
+- [Windows 1.6.16](versions/1.6.16/INSTALL.md): corrige la prioridad de Accueil al iniciar con historial y verifica la desactivación y reactivación de la bienvenida. Incluye el cierre a bandeja sin perder preview ni código y sin recrear Accueil al cerrar la última pestaña.
 
 - [Windows 1.6.14](versions/1.6.14/INSTALL.md): corrige el tooltip de documentos para que no aparezca en la barra de tareas ni robe el foco; conserva la apertura por doble clic.
 

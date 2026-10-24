@@ -2,19 +2,19 @@
   "packages": [
     {
       "kind": "portable",
-      "version": "1.6.14",
-      "size": 65993098,
+      "version": "1.6.16",
+      "size": 65999120,
       "platform": "win-x64",
-      "path": "versions/1.6.14/MDXViewer-1.6.14-win-x64-portable.zip",
-      "sha256": "b274317434ddcb51662ff3ed5414253bc3f224305cda0edbfcc2a688e6a2c15d"
+      "path": "versions/1.6.16/MDXViewer-1.6.16-win-x64-portable.zip",
+      "sha256": "6af5ee69346373a1bfd93027b8735d2087593d357d2de4db6da9454d20d68eac"
     },
     {
       "kind": "installer",
-      "version": "1.6.14",
-      "size": 45871800,
+      "version": "1.6.16",
+      "size": 45872776,
       "platform": "win-x64",
-      "path": "versions/1.6.14/MDXViewer-1.6.14-win-x64-setup.exe",
-      "sha256": "12c8f7d23e4efb81b0ab2b3123bc2583cebef829a56a8c201a456d3e60e6dc54"
+      "path": "versions/1.6.16/MDXViewer-1.6.16-win-x64-setup.exe",
+      "sha256": "26c8e4cfc88266ea0f5051db9784d0bb507ece06e0793607ea738da8c45dcc88"
     },
     {
       "kind": "installer",
@@ -33,16 +33,16 @@
       "sha256": "57cac9fb5c2b2092b785976de7f2c8283f30b23af71d480a5fd86549c459dd07"
     }
   ],
-  "version": "1.6.14",
+  "version": "1.6.16",
   "signature": {
     "publisherThumbprint": "2AD77786E39ED19E6A5A72BB9A7752B10822CE62",
     "format": "CMS detached SHA256",
     "manifests": [
-      "versions/1.6.14/SHA256SUMS.p7s",
+      "versions/1.6.16/SHA256SUMS.p7s",
       "versions/1.0.3/SHA256SUMS.p7s"
     ]
   },
   "app": "MDXViewer",
-  "publishedAtUtc": "2026-10-17T19:06:33Z",
+  "publishedAtUtc": "2026-10-24T08:44:11.899Z",
   "linuxVersion": "1.0.3"
 }
