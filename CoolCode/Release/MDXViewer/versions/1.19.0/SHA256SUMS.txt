@@ -1,0 +1,4 @@
+947a61a1899de3dbf5903392f298da625575f8086bd0dd95ad57ed0cddaaa91f  CoolCode-Publisher.cer
+9087c111cc93464bb40c7b9d87e750213fba3873509fea8c4f5dc080ea45f88e  INSTALL.md
+809a2e332b9dbb843ee0ec1543fe63978217fc68970aca6c2e7f7b189c869e20  MDXViewer-1.19.0-win-x64-portable.zip
+354af4919936dc91f6327081c34f7edb38c3a11522e1cb2afe84703bf3ccc09c  MDXViewer-1.19.0-win-x64-setup.exe
