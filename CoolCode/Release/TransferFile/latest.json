@@ -1,35 +1,35 @@
 {
   "app": "TransferFile",
-  "version": "2.0.1",
-  "publishedAtUtc": "2026-09-23T18:45:13Z",
+  "version": "2.2.4",
+  "publishedAtUtc": "2026-11-23T14:48:52Z",
   "packages": [
     {
       "platform": "win-x64",
       "kind": "installer",
-      "path": "versions/2.0.1/TransferFile-2.0.1-win-x64-setup.exe",
-      "size": 38006328,
-      "sha256": "3d4447d8104ee100c35d365b35f223c102a5273c0c34140ce79ce8acc7efc105"
+      "path": "versions/2.2.4/TransferFile-2.2.4-win-x64-setup.exe",
+      "size": 35293536,
+      "sha256": "46990e43f079ddfdc865ff40e05051308d98df49ad64eea5e97693d416dc4056"
     },
     {
       "platform": "win-x64",
       "kind": "portable",
-      "path": "versions/2.0.1/TransferFile-2.0.1-win-x64-portable.zip",
-      "size": 52425772,
-      "sha256": "26ec1e44bf3990505eab6f64e4de1eaddcb5a4021de3552082fdf2eebf6f6917"
+      "path": "versions/2.2.4/TransferFile-2.2.4-win-x64-portable.zip",
+      "size": 48106672,
+      "sha256": "4385ede4baa031b6885920a34bc15da76e908c470a8a19a9b23f7f588f01fc31"
     },
     {
       "platform": "linux-x64",
       "kind": "installer",
-      "path": "versions/2.0.1/TransferFile-2.0.1-linux-x64-setup.deb",
-      "size": 34959618,
-      "sha256": "816b7edf5251dc84fc4dda4d47e653963be2bf46fcd12f87e4e0cb205caf705f"
+      "path": "versions/2.2.4/TransferFile-2.2.4-linux-x64-setup.deb",
+      "size": 35417962,
+      "sha256": "4c33313fb92e6ad6cc093ea0427cfafab71f53a456fbe92e11e1e06e36aaefa1"
     },
     {
       "platform": "linux-x64",
       "kind": "portable",
-      "path": "versions/2.0.1/TransferFile-2.0.1-linux-x64-portable.tar.gz",
-      "size": 43902807,
-      "sha256": "eecf73665b907e99ce8f1313ec42dda6a8448e60ce1dd9ac64a57bb7b02794be"
+      "path": "versions/2.2.4/TransferFile-2.2.4-linux-x64-portable.tar.gz",
+      "size": 44441097,
+      "sha256": "5f57697e497bfdd5c4b854d39b09af0b43359798b0cbe059f5888dc9c1118ae1"
     }
   ]
 }
